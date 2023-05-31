@@ -1,0 +1,107 @@
+*{
+    margin: 0;
+    padding: 10;
+    box-sizing: border-box;
+   
+     
+ 
+  }
+  body{
+     background-image: url("/DeliciousFoodWeb/assets/background.png");
+     background-repeat: no-repeat;
+     background-size: 100%;
+  }
+  header{
+     padding:15px 6%;
+     display: flex;
+  }
+  .lefthead img{   
+     height: 40px;   
+  }
+  nav{
+     display: flex;
+     align-items: center;
+  }
+  .li{
+     padding-left: 380px;
+    /* padding-right: 250px; */
+    justify-content: baseline;
+  }
+  ul{
+     display: flex;
+     align-items: center;
+     padding: 29px;
+     list-style: none;
+     font-weight: 700; 
+ 
+ 
+  }
+ 
+  ul li{
+      padding: 8px 45px; 
+      font-size: 22px; 
+      color: yellow;
+  }
+  ul li:hover{
+     font-size: 35px;
+     color:blueviolet;
+     
+   }
+  .btn{
+     padding: 15px 30px;
+     margin-top: 15px;
+     font-size: 25px;
+     color: white;
+     font-weight: 700;
+     border: none;
+     background-color: red;
+     border-radius:50px;
+     cursor: auto;
+       
+   }
+   .righthead{
+    padding-left: 200px;
+   }
+   section{
+     margin-top: 100px;
+     
+     align-items: center;
+     justify-content: center;
+     margin-bottom: 40px;
+     font-weight: 700;
+     font-size: 30px;
+   }
+   .heading{
+     font-size:50px ;
+     text-align: center;
+     color: yellow;
+   }
+   .btndiv{
+     text-align: center;
+     align-items: center;
+     padding-left: 6%;
+   }
+   .manubtn{
+     border:1px solid blue ;
+     padding: 15px 20px;
+     margin-top: 15px;
+     font-size: 28px;
+     color: white;
+     font-weight: 600;
+     border: none;
+     background-color: red;
+     border-radius:50px;
+     cursor: auto;
+     align-items: center;
+   }
+   footer{
+     margin-top: 85px;
+     
+   }
+   .foot img{
+     height: 140px;
+     padding-right: 76px;
+     text-align: right;
+     float: right;
+   }
+ 
